@@ -327,6 +327,10 @@
 
 <div class="content" role="main">
 
+  <div *rxFor="let data of data$">
+    {{ data.value }}
+  </div>
+
   <!-- Highlight Card -->
   <div class="card highlight-card card-small">
 
